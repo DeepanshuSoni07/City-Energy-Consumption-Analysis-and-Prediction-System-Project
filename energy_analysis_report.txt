@@ -1,0 +1,65 @@
+CITY ENERGY CONSUMPTION ANALYSIS REPORT
+==================================================
+Generated on: 2025-09-11 14:17:45
+Dataset: 1825 records across 5 zones
+
+ZONE SUMMARY
+--------------------
+Residential North:
+  Average: 483.2 kWh
+  Std Dev: 85.6 kWh
+  Range: 322.5 - 762.2 kWh
+
+Commercial Downtown:
+  Average: 840.5 kWh
+  Std Dev: 166.6 kWh
+  Range: 524.7 - 1400.3 kWh
+
+Industrial East:
+  Average: 1223.2 kWh
+  Std Dev: 189.0 kWh
+  Range: 927.5 - 1922.4 kWh
+
+Residential South:
+  Average: 458.4 kWh
+  Std Dev: 79.9 kWh
+  Range: 304.5 - 721.0 kWh
+
+Mixed Use West:
+  Average: 683.1 kWh
+  Std Dev: 116.0 kWh
+  Range: 488.1 - 1080.6 kWh
+
+KEY CORRELATIONS WITH ENERGY CONSUMPTION
+----------------------------------------
+Humidity: 0.295
+SpecialEvent: 0.129
+IsWeekend: -0.028
+AvgTemperature: -0.018
+
+MODEL PERFORMANCE
+--------------------
+Random Forest:
+  Test MAE: 29.78 kWh
+  Test RMSE: 42.04 kWh
+  Test R²: 0.982
+
+Linear Regression:
+  Test MAE: 51.03 kWh
+  Test RMSE: 76.17 kWh
+  Test R²: 0.942
+
+SPECIAL EVENT IMPACT
+-------------------------
+Residential North: +27.7% during events
+Commercial Downtown: +37.3% during events
+Industrial East: +24.7% during events
+Residential South: +21.1% during events
+Mixed Use West: +33.1% during events
+
+SEASONAL PATTERNS
+--------------------
+Fall: 602.7 kWh
+Spring: 866.8 kWh
+Summer: 701.6 kWh
+Winter: 779.1 kWh
